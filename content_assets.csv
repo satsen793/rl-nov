@@ -1,0 +1,181 @@
+c_id,lo_ids,modality,duration_min,reading_level,url
+C001,['LO10'],blog,5,advanced,https://content.local/1
+C002,['LO17'],text,4,easy,https://content.local/2
+C003,"['LO06', 'LO13']",handout,3,medium,https://content.local/3
+C004,['LO10'],blog,2,medium,https://content.local/4
+C005,"['LO16', 'LO04']",video,8,easy,https://content.local/5
+C006,['LO25'],video,8,easy,https://content.local/6
+C007,"['LO11', 'LO09']",video,11,easy,https://content.local/7
+C008,['LO28'],video,9,easy,https://content.local/8
+C009,['LO16'],ppt,4,easy,https://content.local/9
+C010,['LO07'],article,5,medium,https://content.local/10
+C011,['LO12'],ppt,9,easy,https://content.local/11
+C012,['LO30'],text,9,medium,https://content.local/12
+C013,['LO23'],video,6,advanced,https://content.local/13
+C014,['LO12'],text,5,easy,https://content.local/14
+C015,"['LO02', 'LO22']",video,6,easy,https://content.local/15
+C016,['LO15'],video,12,medium,https://content.local/16
+C017,['LO29'],ppt,6,easy,https://content.local/17
+C018,"['LO19', 'LO13']",ppt,4,easy,https://content.local/18
+C019,['LO18'],video,4,medium,https://content.local/19
+C020,"['LO30', 'LO20']",video,8,medium,https://content.local/20
+C021,"['LO10', 'LO27']",ppt,3,medium,https://content.local/21
+C022,"['LO29', 'LO27']",blog,3,medium,https://content.local/22
+C023,"['LO25', 'LO15']",blog,7,medium,https://content.local/23
+C024,"['LO17', 'LO22']",article,4,medium,https://content.local/24
+C025,"['LO25', 'LO22']",handout,2,medium,https://content.local/25
+C026,"['LO17', 'LO20']",article,2,easy,https://content.local/26
+C027,['LO18'],handout,5,medium,https://content.local/27
+C028,['LO22'],ppt,6,advanced,https://content.local/28
+C029,['LO06'],ppt,8,easy,https://content.local/29
+C030,"['LO22', 'LO07']",article,5,easy,https://content.local/30
+C031,"['LO23', 'LO19']",ppt,5,easy,https://content.local/31
+C032,['LO14'],video,8,easy,https://content.local/32
+C033,['LO28'],handout,2,easy,https://content.local/33
+C034,"['LO03', 'LO16']",video,6,easy,https://content.local/34
+C035,"['LO07', 'LO12']",text,4,medium,https://content.local/35
+C036,['LO29'],blog,5,medium,https://content.local/36
+C037,['LO15'],video,7,easy,https://content.local/37
+C038,['LO29'],blog,3,medium,https://content.local/38
+C039,"['LO07', 'LO04']",article,2,easy,https://content.local/39
+C040,"['LO19', 'LO01']",video,9,easy,https://content.local/40
+C041,"['LO01', 'LO20']",text,4,medium,https://content.local/41
+C042,['LO20'],video,8,easy,https://content.local/42
+C043,['LO03'],video,8,easy,https://content.local/43
+C044,"['LO14', 'LO08']",text,6,medium,https://content.local/44
+C045,['LO24'],video,10,medium,https://content.local/45
+C046,['LO02'],ppt,5,medium,https://content.local/46
+C047,['LO09'],blog,4,medium,https://content.local/47
+C048,['LO19'],video,11,easy,https://content.local/48
+C049,"['LO17', 'LO19']",video,6,medium,https://content.local/49
+C050,"['LO13', 'LO09']",ppt,2,medium,https://content.local/50
+C051,"['LO09', 'LO24']",text,4,easy,https://content.local/51
+C052,"['LO11', 'LO03']",text,4,advanced,https://content.local/52
+C053,"['LO19', 'LO22']",ppt,2,easy,https://content.local/53
+C054,['LO03'],ppt,5,easy,https://content.local/54
+C055,['LO26'],text,6,medium,https://content.local/55
+C056,['LO05'],text,4,medium,https://content.local/56
+C057,['LO25'],text,7,advanced,https://content.local/57
+C058,['LO17'],text,4,medium,https://content.local/58
+C059,['LO21'],ppt,3,easy,https://content.local/59
+C060,['LO25'],handout,4,easy,https://content.local/60
+C061,"['LO05', 'LO11']",video,7,advanced,https://content.local/61
+C062,['LO22'],text,2,easy,https://content.local/62
+C063,"['LO30', 'LO28']",handout,2,easy,https://content.local/63
+C064,['LO16'],text,4,medium,https://content.local/64
+C065,"['LO26', 'LO02']",text,3,easy,https://content.local/65
+C066,"['LO13', 'LO25']",video,8,medium,https://content.local/66
+C067,"['LO08', 'LO03']",ppt,4,advanced,https://content.local/67
+C068,['LO25'],ppt,8,medium,https://content.local/68
+C069,"['LO16', 'LO12']",article,4,easy,https://content.local/69
+C070,"['LO13', 'LO24']",ppt,5,easy,https://content.local/70
+C071,['LO13'],article,9,easy,https://content.local/71
+C072,"['LO28', 'LO25']",text,5,easy,https://content.local/72
+C073,"['LO03', 'LO08']",ppt,2,easy,https://content.local/73
+C074,['LO16'],ppt,5,medium,https://content.local/74
+C075,['LO11'],ppt,6,easy,https://content.local/75
+C076,"['LO03', 'LO06']",video,5,advanced,https://content.local/76
+C077,['LO10'],video,8,easy,https://content.local/77
+C078,['LO04'],handout,6,medium,https://content.local/78
+C079,['LO04'],text,2,advanced,https://content.local/79
+C080,['LO21'],ppt,6,easy,https://content.local/80
+C081,"['LO04', 'LO11']",video,5,medium,https://content.local/81
+C082,['LO03'],video,5,advanced,https://content.local/82
+C083,"['LO05', 'LO06']",video,7,easy,https://content.local/83
+C084,['LO19'],video,8,medium,https://content.local/84
+C085,"['LO30', 'LO02']",video,6,easy,https://content.local/85
+C086,['LO18'],ppt,2,medium,https://content.local/86
+C087,"['LO07', 'LO30']",handout,8,medium,https://content.local/87
+C088,['LO22'],video,4,easy,https://content.local/88
+C089,['LO21'],ppt,2,easy,https://content.local/89
+C090,"['LO20', 'LO13']",ppt,7,medium,https://content.local/90
+C091,"['LO08', 'LO05']",video,3,easy,https://content.local/91
+C092,"['LO08', 'LO06']",video,8,easy,https://content.local/92
+C093,"['LO28', 'LO08']",text,6,medium,https://content.local/93
+C094,['LO29'],text,2,easy,https://content.local/94
+C095,['LO13'],article,5,advanced,https://content.local/95
+C096,"['LO14', 'LO20']",text,7,medium,https://content.local/96
+C097,['LO28'],ppt,5,easy,https://content.local/97
+C098,"['LO17', 'LO26']",ppt,6,easy,https://content.local/98
+C099,"['LO02', 'LO21']",ppt,4,advanced,https://content.local/99
+C100,"['LO05', 'LO08']",ppt,4,easy,https://content.local/100
+C101,['LO11'],text,3,medium,https://content.local/101
+C102,"['LO06', 'LO10']",ppt,7,easy,https://content.local/102
+C103,['LO26'],handout,4,advanced,https://content.local/103
+C104,['LO25'],text,3,easy,https://content.local/104
+C105,"['LO18', 'LO21']",blog,5,advanced,https://content.local/105
+C106,['LO27'],ppt,4,medium,https://content.local/106
+C107,['LO30'],video,7,medium,https://content.local/107
+C108,"['LO14', 'LO06']",video,6,easy,https://content.local/108
+C109,['LO12'],text,3,advanced,https://content.local/109
+C110,['LO17'],ppt,3,easy,https://content.local/110
+C111,"['LO03', 'LO26']",video,7,easy,https://content.local/111
+C112,['LO05'],video,8,medium,https://content.local/112
+C113,"['LO11', 'LO18']",article,4,medium,https://content.local/113
+C114,"['LO20', 'LO03']",video,8,medium,https://content.local/114
+C115,"['LO02', 'LO10']",article,4,medium,https://content.local/115
+C116,['LO10'],blog,5,easy,https://content.local/116
+C117,"['LO24', 'LO10']",text,2,medium,https://content.local/117
+C118,"['LO22', 'LO13']",blog,4,advanced,https://content.local/118
+C119,"['LO12', 'LO15']",video,9,medium,https://content.local/119
+C120,"['LO16', 'LO02']",text,4,medium,https://content.local/120
+C121,['LO13'],ppt,4,advanced,https://content.local/121
+C122,"['LO16', 'LO12']",text,4,medium,https://content.local/122
+C123,['LO24'],ppt,6,easy,https://content.local/123
+C124,['LO02'],text,6,medium,https://content.local/124
+C125,['LO30'],ppt,6,medium,https://content.local/125
+C126,"['LO22', 'LO02']",video,8,medium,https://content.local/126
+C127,"['LO03', 'LO09']",video,8,advanced,https://content.local/127
+C128,['LO10'],text,2,easy,https://content.local/128
+C129,['LO30'],ppt,7,advanced,https://content.local/129
+C130,"['LO07', 'LO22']",handout,4,medium,https://content.local/130
+C131,"['LO24', 'LO20']",text,6,advanced,https://content.local/131
+C132,"['LO06', 'LO11']",video,6,advanced,https://content.local/132
+C133,"['LO15', 'LO05']",blog,9,easy,https://content.local/133
+C134,['LO29'],video,4,medium,https://content.local/134
+C135,"['LO19', 'LO28']",video,7,advanced,https://content.local/135
+C136,"['LO04', 'LO07']",video,11,medium,https://content.local/136
+C137,['LO26'],text,7,medium,https://content.local/137
+C138,['LO07'],video,6,easy,https://content.local/138
+C139,"['LO23', 'LO08']",ppt,7,medium,https://content.local/139
+C140,['LO04'],video,6,advanced,https://content.local/140
+C141,['LO03'],text,6,easy,https://content.local/141
+C142,"['LO01', 'LO27']",video,7,medium,https://content.local/142
+C143,['LO27'],text,4,advanced,https://content.local/143
+C144,['LO21'],text,5,easy,https://content.local/144
+C145,['LO17'],ppt,11,medium,https://content.local/145
+C146,"['LO20', 'LO14']",blog,2,medium,https://content.local/146
+C147,['LO16'],video,4,easy,https://content.local/147
+C148,['LO01'],blog,3,easy,https://content.local/148
+C149,"['LO05', 'LO03']",ppt,7,easy,https://content.local/149
+C150,['LO17'],handout,6,advanced,https://content.local/150
+C151,"['LO22', 'LO28']",video,5,medium,https://content.local/151
+C152,"['LO21', 'LO24']",ppt,7,medium,https://content.local/152
+C153,"['LO16', 'LO22']",ppt,3,easy,https://content.local/153
+C154,"['LO26', 'LO26']",video,8,easy,https://content.local/154
+C155,"['LO18', 'LO04']",video,5,easy,https://content.local/155
+C156,"['LO19', 'LO28']",article,5,easy,https://content.local/156
+C157,"['LO18', 'LO08']",text,6,easy,https://content.local/157
+C158,['LO02'],text,3,medium,https://content.local/158
+C159,['LO13'],text,5,medium,https://content.local/159
+C160,['LO21'],text,9,easy,https://content.local/160
+C161,['LO11'],video,9,advanced,https://content.local/161
+C162,"['LO11', 'LO24']",text,5,easy,https://content.local/162
+C163,"['LO24', 'LO14']",video,10,medium,https://content.local/163
+C164,"['LO29', 'LO25']",article,4,medium,https://content.local/164
+C165,"['LO02', 'LO27']",video,6,easy,https://content.local/165
+C166,['LO17'],text,3,easy,https://content.local/166
+C167,"['LO28', 'LO15']",article,3,medium,https://content.local/167
+C168,['LO21'],video,8,medium,https://content.local/168
+C169,"['LO18', 'LO17']",video,6,advanced,https://content.local/169
+C170,"['LO22', 'LO16']",blog,4,medium,https://content.local/170
+C171,['LO17'],video,7,easy,https://content.local/171
+C172,"['LO15', 'LO16']",text,3,medium,https://content.local/172
+C173,"['LO10', 'LO17']",text,8,medium,https://content.local/173
+C174,"['LO27', 'LO12']",text,3,medium,https://content.local/174
+C175,['LO15'],video,6,easy,https://content.local/175
+C176,"['LO09', 'LO18']",ppt,2,easy,https://content.local/176
+C177,"['LO13', 'LO07']",video,7,medium,https://content.local/177
+C178,['LO01'],video,6,medium,https://content.local/178
+C179,"['LO15', 'LO05']",article,4,medium,https://content.local/179
+C180,"['LO05', 'LO08']",video,7,medium,https://content.local/180

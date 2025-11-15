@@ -1,0 +1,31 @@
+lo_id,taxonomy,weight,prereq_json
+LO01,Create,2,[]
+LO02,Apply,1,[]
+LO03,Recall,1,[]
+LO04,Evaluate,3,"[""LO02"", ""LO03""]"
+LO05,Evaluate,1,"[""LO03"", ""LO04""]"
+LO06,Apply,2,"[""LO04""]"
+LO07,Apply,1,[]
+LO08,Understand,3,"[""LO05""]"
+LO09,Recall,1,"[""LO05""]"
+LO10,Apply,1,"[""LO04""]"
+LO11,Understand,3,[]
+LO12,Analyze,3,"[""LO07""]"
+LO13,Analyze,1,"[""LO12"", ""LO06""]"
+LO14,Recall,1,[]
+LO15,Apply,2,"[""LO06""]"
+LO16,Understand,3,"[""LO06""]"
+LO17,Evaluate,1,"[""LO06"", ""LO02""]"
+LO18,Understand,2,[]
+LO19,Apply,2,"[""LO07"", ""LO01""]"
+LO20,Apply,2,"[""LO05"", ""LO14""]"
+LO21,Understand,2,[]
+LO22,Analyze,2,"[""LO16""]"
+LO23,Analyze,1,"[""LO20""]"
+LO24,Apply,3,"[""LO07""]"
+LO25,Analyze,3,"[""LO05""]"
+LO26,Create,2,"[""LO05"", ""LO12""]"
+LO27,Apply,1,[]
+LO28,Apply,1,"[""LO13""]"
+LO29,Recall,2,[]
+LO30,Analyze,1,[]
