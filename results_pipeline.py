@@ -136,29 +136,29 @@ def main():
                 print(f"Skipping run for {alg} seed {s} (no JSON and no run)")
                 continue
 
-            print(f"Running {alg} seed {s} ...")
-            fn = ALG_FUNCS[alg]
-            # construct a proper env_ctor that builds EduEnv with the given seed
-            def make_env_ctor(sd):
-                return lambda seed=sd: EduEnv(K=8, max_steps=100, beta=0.5, gamma=0.05, step_cost=0.01, seed=sd)
-            env_ctor = make_env_ctor(s)
-            # Some train_* functions expect an env-factory (env_ctor), others expect an env instance.
-            # Try calling with the factory first; on failure, call with an env instance.
-            try:
-                res = fn(env_ctor, steps=args.steps, seed=s)
-            except (TypeError, AttributeError) as e:
+                print(f"Running {alg} seed {s} ...")
+                fn = ALG_FUNCS[alg]
+                # construct a proper env_ctor that builds EduEnv with the given seed
+                def make_env_ctor(sd):
+                    return lambda seed=sd: EduEnv(K=8, max_steps=100, beta=0.5, gamma=0.05, step_cost=0.01, seed=sd)
+                env_ctor = make_env_ctor(s)
+                # Some train_* functions expect an env-factory (env_ctor), others expect an env instance.
+                # Try calling with the factory first; on failure, call with an env instance.
                 try:
-                    env = env_ctor()
-                    res = fn(env, steps=args.steps, seed=s)
-                except Exception as e2:
-                    print(f"Error running {alg} seed {s}: {e2}")
-                    res = None
-            if res is None:
-                 print(f"No result for {alg} seed {s}")
-                 continue
-             with open(json_path, 'w') as fh:
-                 json.dump(res, fh)
-             results_map[alg].append(res)
+                    res = fn(env_ctor, steps=args.steps, seed=s)
+                except (TypeError, AttributeError):
+                    try:
+                        env = env_ctor()
+                        res = fn(env, steps=args.steps, seed=s)
+                    except Exception as e2:
+                        print(f"Error running {alg} seed {s}: {e2}")
+                        res = None
+                if res is None:
+                    print(f"No result for {alg} seed {s}")
+                    continue
+                with open(json_path, 'w') as fh:
+                    json.dump(res, fh)
+                results_map[alg].append(res)
 
     # Summarize
     summarized = {}
