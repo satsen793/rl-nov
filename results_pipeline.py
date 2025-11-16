@@ -153,7 +153,7 @@ def main():
                 except Exception as e2:
                     print(f"Error running {alg} seed {s}: {e2}")
                     res = None
-             if res is None:
+            if res is None:
                  print(f"No result for {alg} seed {s}")
                  continue
              with open(json_path, 'w') as fh:
